@@ -2,6 +2,7 @@
 import { useState } from "react"
 import axios from 'axios'
 
+
 interface FormData {
     applicant_name: string;
     employer_name: string;
@@ -62,9 +63,10 @@ export default function LongTermPermit(){
         // If the form is valid, send the data to the API endpoint
         try{
             const response = await axios.post(
-                'http://127.0.0.1:8000/api/long-term-permits/',
+                'https://labour.26digitaldev.com/api/long-term-permits/',
                 formData
                 )
+            window.open('/next-page', '_blank')
         }catch(error){
             // Handle any error from the API request
         }
@@ -84,7 +86,7 @@ export default function LongTermPermit(){
         <main className='flex min-h-screen flex-col items-center justify-between p-24'>     
             
      <h1>Application For Long-Term Permit</h1>           
-     <form onSubmit={handleSubmit}>
+     <form>
       <div className="grid grid-cols-3 gap-4">
         <div className="mb-6">
           <label htmlFor="applicant_name" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
