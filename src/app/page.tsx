@@ -2,6 +2,7 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
+    <>
     <nav className="bg-white border-gray-200 dark:border-gray-600 dark:bg-gray-900">
     <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
         <a href="https://flowbite.com" className="flex items-center">
@@ -32,12 +33,13 @@ export default function Home() {
             </ul>
         </div>
     </div>
+    </nav>
     <div id="mega-menu-full-dropdown" className="mt-1 border-gray-200 shadow-sm bg-gray-50 md:bg-white border-y dark:bg-gray-800 dark:border-gray-600">
       <h1 className='px-4 pt-4 font-bold'>Ministry of Employment, Labour Productivity and Skills Development</h1>
         <div className="grid max-w-screen-xl px-4 py-5 mx-auto text-gray-900 dark:text-white sm:grid-cols-2 md:px-6">
             <ul>
                 <li>
-                    <a href="/longtermpermit" className="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700">
+                    <a href="/labour/longtermpermit" className="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700">
                         <div className="font-semibold">Apply for long-term work permits</div>
                         <span className="text-sm text-gray-500 dark:text-gray-400">Application fee is P2500.00 for a 3 year period.</span>
                     </a>
@@ -116,7 +118,6 @@ export default function Home() {
             </ul>
         </div>
     </div>
-</nav>
-
+    </>
   )
 }
