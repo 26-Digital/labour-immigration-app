@@ -52,11 +52,15 @@ export default function LongTermPermit(){
     }
 
     const handleInputChange = (
-        event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement}>
-    ) => {
-        const {name, value} = event?.target
-        setFormData({ ...FormData, [name]: value})
-    }
+        event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+      ) => {
+        const { name, value } = event.target;
+        setFormData((prevFormData) => ({
+          ...prevFormData,
+          [name]: value,
+        }));
+      };
+      
     return(
         <main className='flex min-h-screen flex-col items-center justify-between p-24'>     
             
