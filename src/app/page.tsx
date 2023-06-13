@@ -38,7 +38,7 @@ export default function Home() {
             <ul>
                 <li>
                     <a href="#" className="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700">
-                        <div className="font-semibold">Apply for long-term permits</div>
+                        <div className="font-semibold">Apply for long-term work permits</div>
                         <span className="text-sm text-gray-500 dark:text-gray-400">Application fee is P2500.00 for a 3 year period.</span>
                     </a>
                 </li>
@@ -77,19 +77,19 @@ export default function Home() {
             <ul>
                 <li>
                     <a href="#" className="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700">
-                        <div className="font-semibold">Apply for long-term permits</div>
+                        <div className="font-semibold">Apply for residence permit</div>
                         <span className="text-sm text-gray-500 dark:text-gray-400">Application fee is P2500.00 for a 3 year period.</span>
                     </a>
                 </li>
                 <li>
                     <a href="#" className="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700">
-                        <div className="font-semibold">Apply for emergency work permits</div>
+                        <div className="font-semibold">Apply for permanent residence permits</div>
                         <span className="text-sm text-gray-500 dark:text-gray-400">Application fee is BWP900.00</span>
                     </a>
                 </li>
                 <li>
                     <a href="#" className="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700">
-                        <div className="font-semibold">Apply for recruiters license</div>
+                        <div className="font-semibold">Apply for citizenship</div>
                         <span className="text-sm text-gray-500 dark:text-gray-400">Type A/B recruiters license.</span>
                     </a>
                 </li>
@@ -97,7 +97,13 @@ export default function Home() {
             <ul>
                 <li>
                     <a href="#" className="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700">
-                        <div className="font-semibold">Apply for work exemption permits</div>
+                        <div className="font-semibold">Visa on arrival</div>
+                        <span className="text-sm text-gray-500 dark:text-gray-400">Application fee is BWP1500.00 non-refundable.</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" className="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700">
+                        <div className="font-semibold">Residence exemption</div>
                         <span className="text-sm text-gray-500 dark:text-gray-400">Application fee is BWP1500.00 non-refundable.</span>
                     </a>
                 </li>
