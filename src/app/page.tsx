@@ -2,12 +2,11 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-
-<nav className="bg-white border-gray-200 dark:border-gray-600 dark:bg-gray-900">
+    <nav className="bg-white border-gray-200 dark:border-gray-600 dark:bg-gray-900">
     <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
         <a href="https://flowbite.com" className="flex items-center">
             <img src="https://flowbite.com/docs/images/logo.svg" className="h-8 mr-3" alt="Flowbite Logo" />
-            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Labour and Immigration</span>
         </a>
         <button data-collapse-toggle="mega-menu-full" type="button" className="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mega-menu-full" aria-expanded="false">
                 <span className="sr-only">Open main menu</span>
@@ -34,44 +33,78 @@ export default function Home() {
         </div>
     </div>
     <div id="mega-menu-full-dropdown" className="mt-1 border-gray-200 shadow-sm bg-gray-50 md:bg-white border-y dark:bg-gray-800 dark:border-gray-600">
+      <h1 className='px-4 pt-4 font-bold'>Ministry of Employment, Labour Productivity and Skills Development</h1>
         <div className="grid max-w-screen-xl px-4 py-5 mx-auto text-gray-900 dark:text-white sm:grid-cols-2 md:px-6">
             <ul>
                 <li>
                     <a href="#" className="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700">
-                        <div className="font-semibold">Online Stores</div>
-                        <span className="text-sm text-gray-500 dark:text-gray-400">Connect with third-party tools that you're already using.</span>
+                        <div className="font-semibold">Apply for long-term permits</div>
+                        <span className="text-sm text-gray-500 dark:text-gray-400">Application fee is P2500.00 for a 3 year period.</span>
                     </a>
                 </li>
                 <li>
                     <a href="#" className="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700">
-                        <div className="font-semibold">Segmentation</div>
-                        <span className="text-sm text-gray-500 dark:text-gray-400">Connect with third-party tools that you're already using.</span>
+                        <div className="font-semibold">Apply for emergency work permits</div>
+                        <span className="text-sm text-gray-500 dark:text-gray-400">Application fee is BWP900.00</span>
                     </a>
                 </li>
                 <li>
                     <a href="#" className="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700">
-                        <div className="font-semibold">Marketing CRM</div>
-                        <span className="text-sm text-gray-500 dark:text-gray-400">Connect with third-party tools that you're already using.</span>
+                        <div className="font-semibold">Apply for recruiters license</div>
+                        <span className="text-sm text-gray-500 dark:text-gray-400">Type A/B recruiters license.</span>
                     </a>
                 </li>
             </ul>
             <ul>
                 <li>
                     <a href="#" className="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700">
-                        <div className="font-semibold">Online Stores</div>
-                        <span className="text-sm text-gray-500 dark:text-gray-400">Connect with third-party tools that you're already using.</span>
+                        <div className="font-semibold">Apply for work exemption permits</div>
+                        <span className="text-sm text-gray-500 dark:text-gray-400">Application fee is BWP1500.00 non-refundable.</span>
                     </a>
                 </li>
                 <li>
                     <a href="#" className="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700">
-                        <div className="font-semibold">Segmentation</div>
-                        <span className="text-sm text-gray-500 dark:text-gray-400">Connect with third-party tools that you're already using.</span>
+                        <div className="font-semibold">View, Download and Print your permits</div>
+                        <span className="text-sm text-gray-500 dark:text-gray-400">Requirements: Permit number/Passport number.</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="mega-menu-full-dropdown" className="mt-1 border-gray-200 shadow-sm bg-gray-50 md:bg-white border-y dark:bg-gray-800 dark:border-gray-600">
+      <h1 className='px-4 pt-4 font-bold'>Ministry of Nationality, Immigration And Gender Affairs</h1>
+        <div className="grid max-w-screen-xl px-4 py-5 mx-auto text-gray-900 dark:text-white sm:grid-cols-2 md:px-6">
+            <ul>
+                <li>
+                    <a href="#" className="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700">
+                        <div className="font-semibold">Apply for long-term permits</div>
+                        <span className="text-sm text-gray-500 dark:text-gray-400">Application fee is P2500.00 for a 3 year period.</span>
                     </a>
                 </li>
                 <li>
                     <a href="#" className="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700">
-                        <div className="font-semibold">Marketing CRM</div>
-                        <span className="text-sm text-gray-500 dark:text-gray-400">Connect with third-party tools that you're already using.</span>
+                        <div className="font-semibold">Apply for emergency work permits</div>
+                        <span className="text-sm text-gray-500 dark:text-gray-400">Application fee is BWP900.00</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" className="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700">
+                        <div className="font-semibold">Apply for recruiters license</div>
+                        <span className="text-sm text-gray-500 dark:text-gray-400">Type A/B recruiters license.</span>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#" className="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700">
+                        <div className="font-semibold">Apply for work exemption permits</div>
+                        <span className="text-sm text-gray-500 dark:text-gray-400">Application fee is BWP1500.00 non-refundable.</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" className="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700">
+                        <div className="font-semibold">View, Download and Print your permits</div>
+                        <span className="text-sm text-gray-500 dark:text-gray-400">Requirements: Permit number/Passport number.</span>
                     </a>
                 </li>
             </ul>
